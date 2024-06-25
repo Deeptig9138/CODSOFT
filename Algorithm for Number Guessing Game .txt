@@ -1,0 +1,21 @@
+Algorithm for Number Guessing Game 
+
+1. Initialize Random Number Generator:
+   - Seed the random number generator using the current time to ensure unique random numbers for each run.
+
+2. Generate Random Number:
+   - Generate a random number between 1 and 100.
+
+3. Introduction:
+   - Display a welcome message to the user.
+   - Explain the rules of the game: guessing a number between 1 and 100.
+
+4. Guessing Loop:
+   - Continuously prompt the user to guess the number.
+   - If the guess is too high, inform the user.
+   - If the guess is too low, inform the user.
+   - If the guess is correct, congratulate the user and end the loop.
+
+5. End Program:
+   - Return control to the operating system.
+

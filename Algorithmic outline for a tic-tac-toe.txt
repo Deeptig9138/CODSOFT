@@ -1,0 +1,30 @@
+Algorithmic outline for a tic-tac-toe game:
+
+1. Initialize Board and Players:
+   - Create a 3x3 board to store game positions.
+   - Set the initial player (commonly 'X').
+
+2. Display Board:
+   - Print the current state of the board to the screen.
+
+3. Player Move:
+   - Prompt the current player to enter their move (a position on the board).
+   - Validate the move:
+     - Ensure the position is within the valid range (1-9).
+     - Check if the position is already occupied.
+   - If valid, update the board with the player's symbol ('X' or 'O').
+
+4. Check Win:
+   - After each move, check if the current player has won:
+     - Check all rows to see if all positions are occupied by the same player.
+     - Check all columns for the same condition.
+     - Check both diagonals for the same condition.
+
+5. Check Draw:
+   - If the board is full (all positions are occupied) and there is no winner, the game is a draw.
+
+6. Switch Players:
+   - Alternate between players after each valid move.
+
+7. Game Loop:
+   - Continuously loop through the player move, check win, and check draw steps until the game ends (either a win or a draw).

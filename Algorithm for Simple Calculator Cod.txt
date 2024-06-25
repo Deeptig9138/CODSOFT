@@ -1,0 +1,38 @@
+Algorithm for Simple Calculator Code
+
+1. Initialize Main Loop:
+   - Continuously prompt the user for input until the user chooses to exit.
+
+2. Display Menu:
+   - Print the options for the user:
+     - 1. Addition
+     - 2. Subtraction
+     - 3. Multiplication
+     - 4. Division
+     - 5. Exit
+
+3. Get User Choice:
+   - Read the user input for operation choice.
+   - If the choice is '5', print "Goodbye!" and exit the loop.
+   - If the choice is not a valid option (1-4), print an error message and restart the loop.
+
+4. Map Choice to Operation:
+   - Assign the corresponding mathematical operation based on the user choice.
+
+5. Input Validation:
+   - Prompt the user to enter the first number.
+     - If the input is invalid (not numeric), print an error message, clear the input stream, and restart the loop.
+   - Prompt the user to enter the second number.
+     - If the input is invalid (not numeric), print an error message, clear the input stream, and restart the loop.
+
+6. Perform Calculation:
+   - Call the calculate function with the two numbers and the selected operation.
+   - Handle division by zero within the calculate function by printing an error message if it occurs.
+
+7. Display Result:
+   - If the operation is valid and no division by zero error occurs, print the result of the calculation.
+
+8. Repeat:
+   - Return to the main loop to allow the user to perform another calculation or exit.
+
+This algorithm ensures that all user inputs are validated and appropriate error messages are displayed for invalid choices or inputs, making the calculator user-friendly and robust.
